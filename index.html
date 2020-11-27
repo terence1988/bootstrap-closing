@@ -72,16 +72,40 @@
          <!-- card 1 -->
          <div class="col-sm-8 col-md-4 my-3" >
           <!-- paste bootstrap card here -->
+          <div class="card">
+            <img class="card-img-top" src="/images/paris.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
          </div>
          
          <!-- card 2 -->
          <div class="col-sm-8 col-md-4 my-3">
           <!-- paste bootstrap card here -->
+          <div class="card">
+            <img class="card-img-top" src="/images/tokyo.jpg" alt="tokyo">
+            <div class="card-body">
+              <h5 class="card-title">Tokyo</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
          </div>
          
          <!-- card 3 -->
          <div class="col-sm-8 col-md-4 mt-3">
           <!-- paste bootstrap card here -->
+          <div class="card">
+            <img class="card-img-top" src="/images/singapore.jpg" alt="singapore">
+            <div class="card-body">
+              <h5 class="card-title">Singapore</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
          </div>       
       </div>
     </article>
@@ -90,19 +114,47 @@
     <section id="contact">
       <h1 class="bg-light text-center text-secondary py-3">Let's connect!</h1>
       <!-- contact form -->
-      
+      <form class="container">
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Country</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Australia</option>
+            <option>China</option>
+            <option>South Korea</option>
+          </select>
+        </div>
         <!-- End of select input -->
         <!-- Checkbox input -->
         <p>How did you here about us?</p>
-        
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+          <label class="form-check-label" for="inlineCheckbox2">2</label>
+        </div>
         <!-- End of checkbox input -->
         <!-- Textarea input -->
-        
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
         <!-- End of textarea input -->
         <!-- Submit button -->
       <!-- End of the form -->
     <!-- modal here -->
-    
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+     Submit
+    </button>
     </section>
     
   </main>
